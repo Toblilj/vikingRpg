@@ -23,22 +23,6 @@ public Character (string characterName, string faction, Town homeTown) {
 
     }
 
-    public void  introduceCharacter ()
-    {
-    
-            
-           //hanterar vad som ska hända  
-       Console.WriteLine($"Hello my name is {characterName}, and i belong to {faction} welcome to the world!");
-       
-    }
-
- public void describeTown()
-    {
-
-
-        Console.WriteLine($"and this is the town of {HomeTown.townName}  is a big village and it is where the army of Jarl {characterName} resides. We are the mighty army of {faction}");
-
-        }
 
 
 }
@@ -51,15 +35,7 @@ public class Jomsviking : Character
         : base(characterName, faction, homeTown)
     {
         this.characterHealth = health;
+
         this.characterStrength = strength;
     }
-
-    public void BattleCry()
-    {
-        Console.WriteLine("Jag är Richard Jomsviking, den mäktigaste krigaren på detta fält!");
-        Console.WriteLine("Jag utmanar dig på en duel!");
-    }
-
-
-
 }
