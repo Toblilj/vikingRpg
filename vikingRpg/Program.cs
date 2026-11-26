@@ -2,8 +2,8 @@
 namespace vikingRpg;
 using System.Net.Security;
 using System.Collections.Generic;
-using VikingRpg.Core.Locations;
-using VikingRpg.Core.Characters;
+using VikingRpg;
+// using VikingRpg.Core.Characters;
 
 
 // public class Town
@@ -24,7 +24,7 @@ using VikingRpg.Core.Characters;
 class Program
 { 
 
-    //   List<Town> allTowns = new List<Town>(); //den bor här så länge, då det inte är relevant att en town kan alla towns. Utan den får bo här tills jag skapar en spelvärlds fil/class sen. 
+    
   
 
            
@@ -35,7 +35,7 @@ class Program
                 var ribe = new Town("Ribe"); //används ej i nuläget ska läggas till i list sen.
 
 
-            //anropar jomsviking classen
+            //anropar jomsviking classen och skapar karaktären richard.
             var jomsviking=new Jomsviking ("Richard", "Jomsborg", wolin, 100,40);
        
 
@@ -64,7 +64,7 @@ class Program
                 //övergripande while loop för hela if-else
              while(true){
               
-            // Console.WriteLine("Vart vill du gå? ");
+
             var location= Console.ReadLine();
            
             switch (location?.ToLower())

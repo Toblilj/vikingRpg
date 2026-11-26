@@ -1,6 +1,6 @@
 namespace vikingRpg;
 
-
+//character stats
 public class Character
 {
   public  string characterName {get; set;}=" ";
@@ -26,6 +26,9 @@ public Character (string characterName, string faction, Town homeTown) {
 
 
 }
+
+
+//joms karaktär
 
 public class Jomsviking : Character
 {

@@ -29,8 +29,8 @@ public static readonly CharacterDialogues Rasmus = new()
 //vill jag bygga på dialogerna här för t.e.x ett quest eller liknande så skapar jag en nu istället för intro=new() dvs du ersätter intro med det "facket" du vill ha du skapar nya fack längre ned.
     public static readonly CharacterDialogues Richard = new()
 {
-  Intro=new(){Lines=new []{"Jag är Richard Jomsviking, den mäktigaste krigaren på detta fält!" , "Jag utmanar dig på en duel!"     }}
-
+  Intro=new(){Lines=new []{"Jag är Richard Jomsviking, den mäktigaste krigaren på detta fält!" , "Jag utmanar dig på en duel!"     }},
+    BattleCry=new (){Lines=new[]{"bla bla"}}
 };
 
    
